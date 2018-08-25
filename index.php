@@ -1,11 +1,11 @@
 <?php include("components/header.php"); ?>
 
-<div class="row">
+<?php include("components/menu_lateral.php"); ?>
 
-	<div id="menu_lateral">
+<?php include("components/view.php"); ?>
 
-		
-	</div>
-</div>
+<?php include("components/visualiza_modals.php"); ?>
+
+<?php include("components/visualiza_alugueis.php"); ?>
 
 <?php include("components/footer.php"); ?>
