@@ -23,14 +23,14 @@
 	</head>
 
 	<body>
-				<div class="row">
+		<div class="row">
 
-					<div id="cabeçalho_preto">
+			<div id="cabeçalho_preto">
 
-						<div id="cabeçalho_laranja">
+				<div id="cabeçalho_laranja">
 
-							<div id="logo"></div>
-							<div id="font_cabeçalho">HOOKAH SEI LA DAS QUANTAS</div>
-						</div>
-					</div>
+					<div id="logo"></div>
+					<div id="font_cabeçalho">HOOKAH SEI LA DAS QUANTAS</div>
 				</div>
+			</div>
+		</div>
