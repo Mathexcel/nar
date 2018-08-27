@@ -21,7 +21,7 @@
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">featured_play_list</i>Ver Lista de Compras</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Produto</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Produto</a>
-				</div>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Produto</a>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,6 @@
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Cliente</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Cliente</a>
 				</div>
-				</div>
 			</div>
 		</div>
 
@@ -87,7 +86,6 @@
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Venda</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Venda</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Venda</a>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -121,7 +119,7 @@
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">refresh</i>Recomeçar Aluguel</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Aluguel</a>
 					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">done</i>Terminar Aluguel</a>
-				</div>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Aluguel</a>
 				</div>
 			</div>
 		</div>
