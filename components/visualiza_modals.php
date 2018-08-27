@@ -45,8 +45,8 @@
 
 				<div class="input-field col s4">
 
-					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
-					<label for="pesquisa_produto">Pesquisar Cliente</label>
+					<input placeholder="Código:" id="pesquisa_cliente" type="text" class="validate">
+					<label for="pesquisa_cliente">Pesquisar Cliente</label>
 				</div>
 
 				<div class="col s8">
@@ -77,8 +77,8 @@
 
 				<div class="input-field col s4">
 
-					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
-					<label for="pesquisa_produto">Pesquisar Venda</label>
+					<input placeholder="Código:" id="pesquisa_venda" type="text" class="validate">
+					<label for="pesquisa_venda">Pesquisar Venda</label>
 				</div>
 
 				<div class="col s8">
@@ -109,8 +109,8 @@
 
 				<div class="input-field col s4">
 
-					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
-					<label for="pesquisa_produto">Pesquisar Aluguel</label>
+					<input placeholder="Código:" id="pesquisa_aluguel" type="text" class="validate">
+					<label for="pesquisa_aluguel">Pesquisar Aluguel</label>
 				</div>
 
 				<div class="col s8">
