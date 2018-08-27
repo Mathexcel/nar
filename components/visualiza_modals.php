@@ -8,38 +8,21 @@
 
 		<div id="font_modal">
 
-			<table>
-
-  <tbody>
-
-    <tr>
-
-      <td>Alvin</td>
-      <td>Eclair</td>
-      <td>$0.87</td>
-    </tr>
-
-    <tr>
-
-      <td>Alan</td>
-      <td>Jellybean</td>
-      <td>$3.76</td>
-    </tr>
-
-    <tr>
-
-      <td>Jonathan</td>
-      <td>Lollipop</td>
-      <td>$7.00</td>
-    </tr>
-  </tbody>
-</table>
-
 			<div class="row">
 
-				<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">featured_play_list</i>Ver Lista de Compras</a>
-				<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Produto</a>
-				<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Produto</a>
+				<div class="input-field col s4">
+
+					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
+					<label for="pesquisa_produto">Pesquisar Produto</label>
+				</div>
+
+				<div class="col s8">
+
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">featured_play_list</i>Ver Lista de Compras</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Produto</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Produto</a>
+				</div>
+				</div>
 			</div>
 		</div>
 
@@ -58,7 +41,22 @@
 
 		<div id="font_modal">
 
-			Visualizar Cliente
+			<div class="row">
+
+				<div class="input-field col s4">
+
+					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
+					<label for="pesquisa_produto">Pesquisar Cliente</label>
+				</div>
+
+				<div class="col s8">
+
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Cliente</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Cliente</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Cliente</a>
+				</div>
+				</div>
+			</div>
 		</div>
 
 		<!--<div class="modal-footer">
@@ -76,7 +74,22 @@
 
 		<div id="font_modal">
 
-			Visualizar Vendas
+			<div class="row">
+
+				<div class="input-field col s4">
+
+					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
+					<label for="pesquisa_produto">Pesquisar Venda</label>
+				</div>
+
+				<div class="col s8">
+
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Venda</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Venda</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">delete</i>Excluir Venda</a>
+				</div>
+				</div>
+			</div>
 		</div>
 
 		<!--<div class="modal-footer">
@@ -94,7 +107,23 @@
 
 		<div id="font_modal">
 
-			Visualizar Aluguéis
+			<div class="row">
+
+				<div class="input-field col s4">
+
+					<input placeholder="Código:" id="pesquisa_produto" type="text" class="validate">
+					<label for="pesquisa_produto">Pesquisar Aluguel</label>
+				</div>
+
+				<div class="col s8">
+
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">add_circle</i>Cadastrar Aluguel</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">refresh</i>Recomeçar Aluguel</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">update</i>Alterar Aluguel</a>
+					<a class="waves-effect waves-light grey darken-3 btn"><i class="material-icons left">done</i>Terminar Aluguel</a>
+				</div>
+				</div>
+			</div>
 		</div>
 
 		<!--<div class="modal-footer">
