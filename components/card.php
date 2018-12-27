@@ -7,13 +7,14 @@
       <span class="white-text">
 
         <?php
-          echo "Aluguel: $idAluguel <br>";
-          echo "Desconto: $desconto <br>";
+        
+          echo "Aluguel: $id_aluguel <br>";
+          echo "Mesa: $mesa <br>";
           echo "Descrição: $descricao <br>";
-          echo "Valor: $valordoAluguel <br>";
           echo "Data: $data <br>";
           echo "Hora: $hora <br>";
-          echo "Status: $statusAluguel";
+          echo "Preço: $preco <br>";
+          echo "Status: $status <br>";
         ?>
       </span>
     </div>
