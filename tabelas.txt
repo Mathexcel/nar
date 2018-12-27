@@ -1,0 +1,67 @@
+create table Cliente (
+
+	id_cliente INT (9) AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR (30),
+	telefone VARCHAR (9)
+)
+
+create table Produto (
+
+	id_produto INT (9) AUTO_INCREMENT PRIMARY KEY,
+	tipo_produto VARCHAR (20),
+	marca VARCHAR (20),
+	modelo VARCHAR (20),
+	preco DOUBLE,
+	quantidade INT (3)
+)
+
+create table Aluguel (
+
+	id_aluguel INT (9) AUTO_INCREMENT PRIMARY KEY,
+	mesa VARCHAR (2),
+	data DATE,
+	hora TIME,
+	preco_aluguel DOUBLE,
+	status VARCHAR (256),
+	descricao VARCHAR (256)
+)
+
+create table Vendas (
+
+	id_venda INT (9) AUTO_INCREMENT PRIMARY KEY,
+	preco_venda DOUBLE (2),
+	desconto DOUBLE (2),
+	data DATE,
+	hora TIME,
+	descricao VARCHAR (256)
+)
+
+create table Venda_Cliente (
+	
+	id_venda_cliente INT (9) AUTO_INCREMENT PRIMARY KEY,
+	id_venda INT (9),
+	id_cliente INT (9)
+)
+
+create table Venda_Produto (
+
+	id_venda_produto INT (9) AUTO_INCREMENT PRIMARY KEY,
+	id_venda INT (9),
+	id_produto INT (9),
+	quantidade INT (3)
+)
+
+create table Aluguel_Cliente (
+
+	id_aluguel_cliente INT (9) AUTO_INCREMENT PRIMARY KEY,
+	id_aluguel INT (9),
+	id_cliente INT (9)
+)
+
+create table Aluguel_Produto (
+
+	id_aluguel_produto INT (9) AUTO_INCREMENT PRIMARY KEY,
+	id_aluguel INT (9),
+	id_produto INT (9),
+	quantidade int (3)
+)

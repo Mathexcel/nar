@@ -6,6 +6,4 @@
 
 <?php include("components/visualiza_modals.php"); ?>
 
-<?php include("components/visualiza_alugueis.php"); ?>
-
 <?php include("components/footer.php"); ?>
